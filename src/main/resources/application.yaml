@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:taskdb;DB_CLOSE_DELAY=-1
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+server:
+  port: 8080
+
+app:
+  jwt:
+    secret: qDz1fmQyDbizUzdK9w5vo0U17CPRlg22
+    expiration-ms: 86400000 # 1 day
+
+logging:
+  level:
+    root: INFO
+    com.veri: DEBUG
