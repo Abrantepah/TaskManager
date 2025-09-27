@@ -1,2 +1,2 @@
-# TaskManage
+# TaskManager
 Backend for task management application
