@@ -9,7 +9,7 @@ The backend handles:
 
 - **User Authentication:** Registration and login of a single user.
 - **Task Management:** CRUD (Create, Read, Update, Delete) operations for tasks.
-- **Data Persistence:** Storing tasks in a relational database (H2/MySQL/PostgreSQL).
+- **Data Persistence:** Storing tasks in a relational database (H2).
 
 The backend serves as the foundation for a frontend application that will allow a registered user to manage their tasks through a user-friendly interface.
 
@@ -31,7 +31,7 @@ The backend serves as the foundation for a frontend application that will allow 
 ## Tech Stack
 
 - **Backend:** Java, Spring Boot, Spring Security, Spring Data JPA
-- **Database:** H2 (default in-memory), configurable for MySQL/PostgreSQL
+- **Database:** H2 (default in-memory)
 - **Build Tool:** Maven
 - **API Format:** RESTful, JSON-based
 
@@ -41,10 +41,9 @@ The backend serves as the foundation for a frontend application that will allow 
 
 ### Prerequisites
 
-- Java 17 or later
+- Java 21 or later
 - Maven 3.6+
 - Git
-- (Optional) MySQL/PostgreSQL if you want to use a persistent database
 
 ### Installation & Setup
 
