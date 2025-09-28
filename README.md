@@ -53,7 +53,7 @@ The backend serves as the foundation for a frontend application that will allow 
 https://github.com/Abrantepah/TaskManager.git
 cd TaskManager
 
-2. **Build and the project**
+2. **Build and run the project**
 mvn clean install
 mvn spring-boot:run
 
