@@ -50,8 +50,8 @@ The backend serves as the foundation for a frontend application that will allow 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/<your-username>/task-manager-backend.git
-cd task-manager-backend
+https://github.com/Abrantepah/TaskManager.git
+cd TaskManager
 
 2. **Build and the project**
 mvn clean install
